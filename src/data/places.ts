@@ -1227,4 +1227,20 @@ export const places: Place[] = [
       verifiedAt: "2026-08-20",
     },
   }),
+  draftRestaurant({
+    id: "tonton-jackie",
+    name: "豚々ジャッキー",
+    nameJa: "豚々ジャッキー",
+    note: "旭橋站附近的高評價炸豬排專門店，使用阿古豬與山原島豬，主打肉厚、柔嫩且能品嚐脂肪甜味的里肌與腰內肉炸豬排。Tabelog 評論數多，可信度高；適合想明確品嚐阿古豬炸豬排時安排。店在大樓二樓，不能預約且午、晚餐營業時段都不長，熱門時段可能需要候位。",
+    tags: ["炸豬排", "阿古豬", "山原島豬", "沖繩特色", "里肌豬排", "腰內豬排", "旭橋", "不能預約"],
+    position: [26.2148552, 127.6754293],
+    address: "沖繩縣那霸市久米 2-9-11 abc 久米大樓 2F",
+    hours: "週三至週日 11:30–14:00、17:00–20:30；週一、二公休",
+    maps: "https://www.google.com/maps/search/?api=1&query=%E8%B1%9A%E3%80%85%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AD%E3%83%BC",
+    tabelog: {
+      url: "https://tabelog.com/okinawa/A4701/A470101/47007952/",
+      rating: 3.53,
+      verifiedAt: "2026-08-23",
+    },
+  }),
 ];
